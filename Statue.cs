@@ -21,7 +21,7 @@ public class Statue : MonoBehaviour
 
     void Start()
     {
-        //Atatch the breaking script to the Animator, set it to play once, enable to play on collision
+        //Attach the breaking script to the Animator, set it to play once, enable to play on collision
         gameObject.GetComponent<Animator>().enabled = false;
         //Get this statue's collider
         statueCollider = gameObject.GetComponent<BoxCollider2D>();
